@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background: #2C3E50;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #4CA1AF, #2C3E50);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #4CA1AF, #2C3E50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-repeat: no-repeat;
+
+}
+.mainCont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+/* card01---------------------------------------- */
+.card01 {
+    width: 400px;
+    height: auto;
+    /* this is how you do a backgroind blur without affecting the content */
+    backdrop-filter: blur(3px);
+    margin: 3rem;
+    border-radius: 25px;
+    box-shadow: 4px 4px 60px 15px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+.card01:hover {
+    width: 500px;
+    height: 600px;
+}
+.card01Header {
+    display: flex;
+    justify-content: center;
+    /* border-bottom: 1px solid black; */
+}
+.card01Img > img {
+    max-width: 400px;
+    margin: 2px 0px 2px 0px;
+    min-width: 100%;
+}
+.card01Info {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+}
